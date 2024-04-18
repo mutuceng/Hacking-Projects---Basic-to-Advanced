@@ -27,7 +27,7 @@ def changeControl(interface):
 
 print("Process started")
 
-(user_inputs,arguments) = get_user_input()             #Böyle daha clean
+(user_inputs,arguments) = get_user_input()             
 macChanger(user_inputs.interface,user_inputs.mac_address)
 
 finalizedMac = changeControl(user_inputs.interface)
